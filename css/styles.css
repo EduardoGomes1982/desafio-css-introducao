@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --color-red: #F03C42;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --bg-gray: #CCCCCC;
+    --bg-blue: #222374;
+    --bg-white: #FFFFFF;
+    --imgw-social: 30px;
+    --imgh-social: 30px;
+    --header-height: 100px;
+    --footer-height: 262px;
+}
+
+* {
+    font-family: 'Open+Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    color: var(--color-white);
+    background-color: var(--color-red);
+    height: var(--header-height);
+    display: flex;
+}
+
+header img {
+    width: var(--imgw-social);
+    height: var(--imgh-social);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    height: var(--footer-height);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-rows: 150px auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    height: var(--footer-height);
+    font-size: 14px;
+}
+
+footer img {
+    width: var(--imgw-social);
+    height: var(--imgh-social);
+}
+
+.footer_social_net {
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: 40px 40px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer_text_address {
+    display: inline-flexbox;
+    text-align-last: center;
+}
+
+.r-nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.r-nav-container a {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 40px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+#meet-section {
+    background-color: var(--bg-blue);
+    color: var(--color-white);
+}
+
+#modalities-section {
+    background-color: var(--color-white);
+    color: var(--color-red);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.meet-card {
+    background-color: var(--bg-gray);
+    color: var(--color-black);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modalities-card {
+    background-color: var(--bg-blue);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modalities-card h3 {
+    color: var(--color-white);
+}
+
+.modalities-card p {
+    color: var(--bg-gray);
+}
