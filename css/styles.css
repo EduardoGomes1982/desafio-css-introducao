@@ -35,6 +35,7 @@ header {
 header img {
     width: var(--imgw-social);
     height: var(--imgh-social);
+    display: block;
 }
 
 nav {
